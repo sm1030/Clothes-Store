@@ -15,6 +15,8 @@ class DataController {
         return DataController.persistentContainer.viewContext
     }
     
+    
+    
     // MARK: - Core Data stack
     
     static var persistentContainer: NSPersistentContainer = {
@@ -44,6 +46,8 @@ class DataController {
         return container
     }()
     
+    
+    
     // MARK: - Core Data Saving support
     
     static func saveContext () {
@@ -59,6 +63,8 @@ class DataController {
             }
         }
     }
+    
+    
     
     // MARK: - Custom methods
     
