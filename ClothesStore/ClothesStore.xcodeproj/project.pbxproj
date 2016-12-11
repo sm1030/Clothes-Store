@@ -10,11 +10,26 @@
 		516277E21DFC6FA2003BAA51 /* ClothesStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516277E11DFC6FA2003BAA51 /* ClothesStoreTests.swift */; };
 		516277ED1DFC6FA2003BAA51 /* ClothesStoreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516277EC1DFC6FA2003BAA51 /* ClothesStoreUITests.swift */; };
 		516278051DFC70AA003BAA51 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516277FB1DFC70AA003BAA51 /* AppDelegate.swift */; };
-		516278061DFC70AA003BAA51 /* ClothesStore.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 516277FC1DFC70AA003BAA51 /* ClothesStore.xcdatamodeld */; };
 		516278071DFC70AA003BAA51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 516277FF1DFC70AA003BAA51 /* Assets.xcassets */; };
 		516278081DFC70AA003BAA51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 516278001DFC70AA003BAA51 /* LaunchScreen.storyboard */; };
 		516278091DFC70AA003BAA51 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 516278021DFC70AA003BAA51 /* Main.storyboard */; };
 		5162780A1DFC70AA003BAA51 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516278041DFC70AA003BAA51 /* ViewController.swift */; };
+		5162780E1DFC73B2003BAA51 /* ClothesStore.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5162780C1DFC73B2003BAA51 /* ClothesStore.xcdatamodeld */; };
+		516278111DFC7DE8003BAA51 /* Products.json in Resources */ = {isa = PBXBuildFile; fileRef = 516278101DFC7DE8003BAA51 /* Products.json */; };
+		516278121DFC7DE8003BAA51 /* Products.json in Resources */ = {isa = PBXBuildFile; fileRef = 516278101DFC7DE8003BAA51 /* Products.json */; };
+		516278141DFC7E9A003BAA51 /* Product.json in Resources */ = {isa = PBXBuildFile; fileRef = 516278131DFC7E9A003BAA51 /* Product.json */; };
+		516278151DFC7E9A003BAA51 /* Product.json in Resources */ = {isa = PBXBuildFile; fileRef = 516278131DFC7E9A003BAA51 /* Product.json */; };
+		516278171DFC995D003BAA51 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516278161DFC995D003BAA51 /* DataController.swift */; };
+		516278191DFC9C56003BAA51 /* ProductCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516278181DFC9C56003BAA51 /* ProductCategory.swift */; };
+		5162781B1DFCA31B003BAA51 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5162781A1DFCA31B003BAA51 /* Product.swift */; };
+		5162781D1DFCA6CB003BAA51 /* ProductCategoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5162781C1DFCA6CB003BAA51 /* ProductCategoryTests.swift */; };
+		516A8E821DFD62E70089CF78 /* ProductTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516A8E811DFD62E70089CF78 /* ProductTests.swift */; };
+		516A8E841DFD752E0089CF78 /* Catalogue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516A8E831DFD752E0089CF78 /* Catalogue.swift */; };
+		516A8E861DFD78FD0089CF78 /* CatalogueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516A8E851DFD78FD0089CF78 /* CatalogueTests.swift */; };
+		516A8E881DFD7FF10089CF78 /* Wishist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516A8E871DFD7FF10089CF78 /* Wishist.swift */; };
+		516A8E8A1DFDAC200089CF78 /* Basket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516A8E891DFDAC200089CF78 /* Basket.swift */; };
+		516A8E8C1DFDB0AA0089CF78 /* BasketTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516A8E8B1DFDB0AA0089CF78 /* BasketTests.swift */; };
+		516A8E8E1DFDB2360089CF78 /* WishListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516A8E8D1DFDB2360089CF78 /* WishListTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,11 +59,24 @@
 		516277EC1DFC6FA2003BAA51 /* ClothesStoreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClothesStoreUITests.swift; sourceTree = "<group>"; };
 		516277EE1DFC6FA2003BAA51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		516277FB1DFC70AA003BAA51 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		516277FD1DFC70AA003BAA51 /* ClothesStore.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ClothesStore.xcdatamodel; sourceTree = "<group>"; };
 		516277FF1DFC70AA003BAA51 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		516278011DFC70AA003BAA51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		516278031DFC70AA003BAA51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		516278041DFC70AA003BAA51 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5162780D1DFC73B2003BAA51 /* ClothesStore.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ClothesStore.xcdatamodel; sourceTree = "<group>"; };
+		516278101DFC7DE8003BAA51 /* Products.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Products.json; sourceTree = "<group>"; };
+		516278131DFC7E9A003BAA51 /* Product.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Product.json; sourceTree = "<group>"; };
+		516278161DFC995D003BAA51 /* DataController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		516278181DFC9C56003BAA51 /* ProductCategory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductCategory.swift; sourceTree = "<group>"; };
+		5162781A1DFCA31B003BAA51 /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		5162781C1DFCA6CB003BAA51 /* ProductCategoryTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductCategoryTests.swift; sourceTree = "<group>"; };
+		516A8E811DFD62E70089CF78 /* ProductTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductTests.swift; sourceTree = "<group>"; };
+		516A8E831DFD752E0089CF78 /* Catalogue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Catalogue.swift; sourceTree = "<group>"; };
+		516A8E851DFD78FD0089CF78 /* CatalogueTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CatalogueTests.swift; sourceTree = "<group>"; };
+		516A8E871DFD7FF10089CF78 /* Wishist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Wishist.swift; sourceTree = "<group>"; };
+		516A8E891DFDAC200089CF78 /* Basket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Basket.swift; sourceTree = "<group>"; };
+		516A8E8B1DFDB0AA0089CF78 /* BasketTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasketTests.swift; sourceTree = "<group>"; };
+		516A8E8D1DFDB2360089CF78 /* WishListTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WishListTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,8 +137,14 @@
 		516277E01DFC6FA2003BAA51 /* ClothesStoreTests */ = {
 			isa = PBXGroup;
 			children = (
+				5162780F1DFC7DCD003BAA51 /* JSON */,
 				516277E11DFC6FA2003BAA51 /* ClothesStoreTests.swift */,
 				516277E31DFC6FA2003BAA51 /* Info.plist */,
+				5162781C1DFCA6CB003BAA51 /* ProductCategoryTests.swift */,
+				516A8E811DFD62E70089CF78 /* ProductTests.swift */,
+				516A8E851DFD78FD0089CF78 /* CatalogueTests.swift */,
+				516A8E8B1DFDB0AA0089CF78 /* BasketTests.swift */,
+				516A8E8D1DFDB2360089CF78 /* WishListTests.swift */,
 			);
 			path = ClothesStoreTests;
 			sourceTree = "<group>";
@@ -127,8 +161,8 @@
 		516277FA1DFC70AA003BAA51 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				5162780B1DFC73B2003BAA51 /* CoreData */,
 				516277FB1DFC70AA003BAA51 /* AppDelegate.swift */,
-				516277FC1DFC70AA003BAA51 /* ClothesStore.xcdatamodeld */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -142,6 +176,29 @@
 				516278041DFC70AA003BAA51 /* ViewController.swift */,
 			);
 			path = UI;
+			sourceTree = "<group>";
+		};
+		5162780B1DFC73B2003BAA51 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				5162780C1DFC73B2003BAA51 /* ClothesStore.xcdatamodeld */,
+				516278161DFC995D003BAA51 /* DataController.swift */,
+				516278181DFC9C56003BAA51 /* ProductCategory.swift */,
+				5162781A1DFCA31B003BAA51 /* Product.swift */,
+				516A8E831DFD752E0089CF78 /* Catalogue.swift */,
+				516A8E871DFD7FF10089CF78 /* Wishist.swift */,
+				516A8E891DFDAC200089CF78 /* Basket.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		5162780F1DFC7DCD003BAA51 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				516278101DFC7DE8003BAA51 /* Products.json */,
+				516278131DFC7E9A003BAA51 /* Product.json */,
+			);
+			path = JSON;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -255,7 +312,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				516278091DFC70AA003BAA51 /* Main.storyboard in Resources */,
+				516278111DFC7DE8003BAA51 /* Products.json in Resources */,
 				516278071DFC70AA003BAA51 /* Assets.xcassets in Resources */,
+				516278141DFC7E9A003BAA51 /* Product.json in Resources */,
 				516278081DFC70AA003BAA51 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -264,6 +323,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				516278121DFC7DE8003BAA51 /* Products.json in Resources */,
+				516278151DFC7E9A003BAA51 /* Product.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,8 +343,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				5162780A1DFC70AA003BAA51 /* ViewController.swift in Sources */,
-				516278061DFC70AA003BAA51 /* ClothesStore.xcdatamodeld in Sources */,
+				516278191DFC9C56003BAA51 /* ProductCategory.swift in Sources */,
+				516278171DFC995D003BAA51 /* DataController.swift in Sources */,
+				516A8E881DFD7FF10089CF78 /* Wishist.swift in Sources */,
 				516278051DFC70AA003BAA51 /* AppDelegate.swift in Sources */,
+				5162780E1DFC73B2003BAA51 /* ClothesStore.xcdatamodeld in Sources */,
+				516A8E8A1DFDAC200089CF78 /* Basket.swift in Sources */,
+				516A8E841DFD752E0089CF78 /* Catalogue.swift in Sources */,
+				5162781B1DFCA31B003BAA51 /* Product.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,6 +359,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				516277E21DFC6FA2003BAA51 /* ClothesStoreTests.swift in Sources */,
+				516A8E8C1DFDB0AA0089CF78 /* BasketTests.swift in Sources */,
+				516A8E8E1DFDB2360089CF78 /* WishListTests.swift in Sources */,
+				5162781D1DFCA6CB003BAA51 /* ProductCategoryTests.swift in Sources */,
+				516A8E821DFD62E70089CF78 /* ProductTests.swift in Sources */,
+				516A8E861DFD78FD0089CF78 /* CatalogueTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -534,6 +606,7 @@
 				516277F31DFC6FA2003BAA51 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		516277F41DFC6FA2003BAA51 /* Build configuration list for PBXNativeTarget "ClothesStoreTests" */ = {
 			isa = XCConfigurationList;
@@ -542,6 +615,7 @@
 				516277F61DFC6FA2003BAA51 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		516277F71DFC6FA2003BAA51 /* Build configuration list for PBXNativeTarget "ClothesStoreUITests" */ = {
 			isa = XCConfigurationList;
@@ -550,16 +624,17 @@
 				516277F91DFC6FA2003BAA51 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		516277FC1DFC70AA003BAA51 /* ClothesStore.xcdatamodeld */ = {
+		5162780C1DFC73B2003BAA51 /* ClothesStore.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				516277FD1DFC70AA003BAA51 /* ClothesStore.xcdatamodel */,
+				5162780D1DFC73B2003BAA51 /* ClothesStore.xcdatamodel */,
 			);
-			currentVersion = 516277FD1DFC70AA003BAA51 /* ClothesStore.xcdatamodel */;
+			currentVersion = 5162780D1DFC73B2003BAA51 /* ClothesStore.xcdatamodel */;
 			path = ClothesStore.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;

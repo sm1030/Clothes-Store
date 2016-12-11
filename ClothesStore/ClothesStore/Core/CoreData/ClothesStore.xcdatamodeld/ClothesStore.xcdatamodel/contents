@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="11542" systemVersion="16B2657" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Basket" representedClassName="Basket" syncable="YES" codeGenerationType="class">
+        <attribute name="count" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <relationship name="product" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Product" inverseName="basket" inverseEntity="Product" syncable="YES"/>
+    </entity>
+    <entity name="Catalogue" representedClassName="Catalogue" syncable="YES" codeGenerationType="class">
+        <attribute name="available" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <relationship name="product" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Product" inverseName="catalogue" inverseEntity="Product" syncable="YES"/>
+    </entity>
+    <entity name="Product" representedClassName="Product" syncable="YES" codeGenerationType="class">
+        <attribute name="id" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" indexed="YES" syncable="YES"/>
+        <attribute name="name" attributeType="String" syncable="YES"/>
+        <attribute name="price" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <relationship name="basket" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Basket" inverseName="product" inverseEntity="Basket" syncable="YES"/>
+        <relationship name="catalogue" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Catalogue" inverseName="product" inverseEntity="Catalogue" syncable="YES"/>
+        <relationship name="productCategory" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="ProductCategory" inverseName="products" inverseEntity="ProductCategory" syncable="YES"/>
+        <relationship name="wishList" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="WishList" inverseName="product" inverseEntity="WishList" syncable="YES"/>
+    </entity>
+    <entity name="ProductCategory" representedClassName="ProductCategory" syncable="YES" codeGenerationType="class">
+        <attribute name="id" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" indexed="YES" syncable="YES"/>
+        <attribute name="name" attributeType="String" syncable="YES"/>
+        <relationship name="products" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Product" inverseName="productCategory" inverseEntity="Product" syncable="YES"/>
+    </entity>
+    <entity name="WishList" representedClassName="WishList" syncable="YES" codeGenerationType="class">
+        <relationship name="product" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Product" inverseName="wishList" inverseEntity="Product" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Basket" positionX="81" positionY="-36" width="128" height="73"/>
+        <element name="Catalogue" positionX="81" positionY="63" width="128" height="73"/>
+        <element name="ProductCategory" positionX="-279" positionY="63" width="128" height="88"/>
+        <element name="Product" positionX="-108" positionY="18" width="128" height="148"/>
+        <element name="WishList" positionX="81" positionY="158" width="128" height="58"/>
+    </elements>
+</model>
