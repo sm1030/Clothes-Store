@@ -33,6 +33,7 @@
 		516A8E8E1DFDB2360089CF78 /* WishListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516A8E8D1DFDB2360089CF78 /* WishListTests.swift */; };
 		516A8E901DFDBB750089CF78 /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516A8E8F1DFDBB750089CF78 /* ApiService.swift */; };
 		516A8E921DFDC23A0089CF78 /* apiServicesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516A8E911DFDC23A0089CF78 /* apiServicesTests.swift */; };
+		516A8E941DFDFA270089CF78 /* StoreController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516A8E931DFDFA270089CF78 /* StoreController.swift */; };
 		6F4E3220BE0A415E9480EB2D /* Pods_ClothesStoreTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FFF1F6D9A88D252965BE10C /* Pods_ClothesStoreTests.framework */; };
 		858203C58B2B0E4F9F140E53 /* Pods_ClothesStoreUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B441BA4A91980A7B396C6382 /* Pods_ClothesStoreUITests.framework */; };
 /* End PBXBuildFile section */
@@ -85,6 +86,7 @@
 		516A8E8D1DFDB2360089CF78 /* WishListTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WishListTests.swift; sourceTree = "<group>"; };
 		516A8E8F1DFDBB750089CF78 /* ApiService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
 		516A8E911DFDC23A0089CF78 /* apiServicesTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = apiServicesTests.swift; sourceTree = "<group>"; };
+		516A8E931DFDFA270089CF78 /* StoreController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoreController.swift; sourceTree = "<group>"; };
 		52B13BF6100BB78247D5FEFD /* Pods-ClothesStoreUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClothesStoreUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ClothesStoreUITests/Pods-ClothesStoreUITests.release.xcconfig"; sourceTree = "<group>"; };
 		78EBFD6419F225064CF324C2 /* Pods-ClothesStoreTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClothesStoreTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ClothesStoreTests/Pods-ClothesStoreTests.release.xcconfig"; sourceTree = "<group>"; };
 		9E1FCB0E01A1AA6643AF59DB /* Pods-ClothesStoreTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClothesStoreTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ClothesStoreTests/Pods-ClothesStoreTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -186,6 +188,7 @@
 				5162780B1DFC73B2003BAA51 /* CoreData */,
 				516277FB1DFC70AA003BAA51 /* AppDelegate.swift */,
 				516A8E8F1DFDBB750089CF78 /* ApiService.swift */,
+				516A8E931DFDFA270089CF78 /* StoreController.swift */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -545,6 +548,7 @@
 				516A8E8A1DFDAC200089CF78 /* Basket.swift in Sources */,
 				516A8E841DFD752E0089CF78 /* Catalogue.swift in Sources */,
 				5162781B1DFCA31B003BAA51 /* Product.swift in Sources */,
+				516A8E941DFDFA270089CF78 /* StoreController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

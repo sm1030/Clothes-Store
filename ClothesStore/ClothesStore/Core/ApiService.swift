@@ -111,7 +111,9 @@ class ApiService {
             
             if let stock = jsonDictionary["stock"] as? Int {
                 let catalogue = Catalogue.getItemOrCreate(forProduct: product)
-                catalogue.stock = Int64(stock)
+                if catalogue.stock == 0 { // Local stock value have priority over server value, because server doesn't update stock value when I add product to the shopping cart
+                    catalogue.stock = Int64(stock)
+                }
             }
             
             return true

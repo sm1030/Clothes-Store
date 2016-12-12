@@ -95,12 +95,4 @@ class ApiServicesTests: XCTestCase {
         }
     }
     
-    func testAddProductToCart() {
-        // No test available at this time
-    }
-    
-    func testRemoveProductFromCart() {
-        // No test available at this time
-    }
-    
 }
