@@ -73,7 +73,7 @@ class StoreController {
                 basket.count -= 1
                 
                 if basket.count == 0 {
-                    DataController.getContext().delete(basket)
+                    DataController.sharedInstance.managedObjectContext.delete(basket)
                 }
                 
                 delegate?.storeControllerDataUpdated()
@@ -97,7 +97,7 @@ class StoreController {
     func removeProductFromWishList(product: Product) {
         let wishList = WishList.getItem(forProduct: product)
         if wishList != nil {
-            DataController.getContext().delete(wishList!)
+            DataController.sharedInstance.managedObjectContext.delete(wishList!)
             delegate?.storeControllerDataUpdated()
         }
     }
