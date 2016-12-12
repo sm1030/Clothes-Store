@@ -19,6 +19,7 @@ class CatalogueTableViewController: UITableViewController, StoreControllerDelega
     
     override func viewDidAppear(_ animated: Bool) {
         storeController.delegate = self
+        tableView.reloadData()
     }
 
     override func didReceiveMemoryWarning() {

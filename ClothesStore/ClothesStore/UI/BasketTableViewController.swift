@@ -12,8 +12,15 @@ class BasketTableViewController: UITableViewController, StoreControllerDelegate 
     
     let storeController = StoreController.sharedInstant
     
+    private var cancelButton: UIBarButtonItem?
+    private var buyButton: UIBarButtonItem?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        cancelButton = UIBarButtonItem(title: "Cancel", style: .plain, target: self, action: #selector(cancelPurchase))
+        buyButton = UIBarButtonItem(title: "Buy", style: .plain, target: self, action: #selector(commitPurchase))
+        navigationItem.leftBarButtonItem = cancelButton
+        navigationItem.rightBarButtonItem = buyButton
     }
     
     override func viewDidAppear(_ animated: Bool) {
@@ -36,6 +43,18 @@ class BasketTableViewController: UITableViewController, StoreControllerDelegate 
     
     func updateTitle() {
         self.navigationItem.title = "Total amount: £\(storeController.getTotalAmount())"
+        
+        let enableTitleButtons = Basket.getAllItems().count > 0
+        cancelButton?.isEnabled = enableTitleButtons
+        buyButton?.isEnabled = enableTitleButtons
+    }
+    
+    func cancelPurchase() {
+        storeController.cancelPurchase()
+    }
+    
+    func commitPurchase() {
+        storeController.commitPurchase()
     }
     
     func storeControllerMessage(title: String, message: String) {

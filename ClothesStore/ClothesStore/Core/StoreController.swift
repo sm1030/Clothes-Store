@@ -121,6 +121,8 @@ class StoreController {
         
         WishList.deleteAll()
         
+        delegate?.storeControllerDataUpdated()
+        
         let message = "Congratulations! You purchase was successful!"
         delegate?.storeControllerMessage(title: "Checkout", message: message)
     }
@@ -135,6 +137,8 @@ class StoreController {
         }
         
         Basket.deleteAll()
+        
+        delegate?.storeControllerDataUpdated()
         
         let message = "You checkout have been cancelled."
         delegate?.storeControllerMessage(title: "Checkout", message: message)

@@ -68,10 +68,10 @@ class WishListTableViewController: UITableViewController, StoreControllerDelegat
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
-        let basketList = Basket.getAllItems()
-        if basketList.count > indexPath.row {
-            let basket = basketList[indexPath.row]
-            storeController.selectedProduct = basket.product
+        let wishList = WishList.getAllItems()
+        if wishList.count > indexPath.row {
+            let wishItem = wishList[indexPath.row]
+            storeController.selectedProduct = wishItem.product
             performSegue(withIdentifier: "showDetails", sender: self)
         }
     }
