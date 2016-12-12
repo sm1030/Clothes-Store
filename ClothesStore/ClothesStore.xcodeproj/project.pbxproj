@@ -101,6 +101,7 @@
 		516A8EA31DFE7B800089CF78 /* WishListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WishListTableViewCell.swift; sourceTree = "<group>"; };
 		516A8EA51DFE7C250089CF78 /* BasketTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasketTableViewController.swift; sourceTree = "<group>"; };
 		516A8EA71DFE7C3F0089CF78 /* WishListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WishListTableViewController.swift; sourceTree = "<group>"; };
+		516A8EA91DFE98120089CF78 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		52B13BF6100BB78247D5FEFD /* Pods-ClothesStoreUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClothesStoreUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ClothesStoreUITests/Pods-ClothesStoreUITests.release.xcconfig"; sourceTree = "<group>"; };
 		78EBFD6419F225064CF324C2 /* Pods-ClothesStoreTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClothesStoreTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ClothesStoreTests/Pods-ClothesStoreTests.release.xcconfig"; sourceTree = "<group>"; };
 		9E1FCB0E01A1AA6643AF59DB /* Pods-ClothesStoreTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClothesStoreTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ClothesStoreTests/Pods-ClothesStoreTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -142,6 +143,7 @@
 		516277BD1DFC6FA1003BAA51 = {
 			isa = PBXGroup;
 			children = (
+				516A8EA91DFE98120089CF78 /* README.md */,
 				516277C81DFC6FA2003BAA51 /* ClothesStore */,
 				516277E01DFC6FA2003BAA51 /* ClothesStoreTests */,
 				516277EB1DFC6FA2003BAA51 /* ClothesStoreUITests */,
