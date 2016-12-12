@@ -1,6 +1,6 @@
 # Clothes-Store
 
-This is the Cloth Store demo app written by Alexandre Malkov. You can select product from Product Catalogue or add them to the Wish List and then you can "buy" those products. There is no real trabsaction take place ;-) 
+This is the Cloth Store demo app written by Alexandre Malkov. You can select different products from the Product Catalogue list or add them to the Wish List and then you can "buy" those products. There is no real transaction takes place ;-) 
 
 ==================
 APP IMPLEMENTATION
@@ -29,6 +29,6 @@ To add products to Shopping List or to Wish List you should click on item and us
 
 Shopping Cart tab have two buttons:
 Buy - commit your list of selected items
-Cancel - remove items form your Shopping Cart back into the Product Catalgue
+Cancel - remove items form your Shopping Cart back into the Product Catalogue
 
 
