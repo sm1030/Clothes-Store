@@ -18,6 +18,7 @@ class StoreController {
     static let sharedInstant = StoreController()
     
     var delegate: StoreControllerDelegate?
+    var selectedProduct: Product?
     
     private let api = ApiService()
     
