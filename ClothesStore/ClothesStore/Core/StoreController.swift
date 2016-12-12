@@ -98,6 +98,7 @@ class StoreController {
     func removeProductFromWishList(product: Product) {
         let wishList = WishList.getItem(forProduct: product)
         if wishList != nil {
+            product.wishList = nil
             DataController.sharedInstance.managedObjectContext.delete(wishList!)
             delegate?.storeControllerDataUpdated()
         }

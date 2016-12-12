@@ -23,7 +23,8 @@ extension Product {
     }
     
     static func getAllItems() -> [Product] {
-        return DataController.getAllItems()
+        let sortDescriptors = [NSSortDescriptor(key: "id", ascending: true)]
+        return DataController.getAllItems(sortDescriptors: sortDescriptors)
     }
     
     static func deleteAll() {

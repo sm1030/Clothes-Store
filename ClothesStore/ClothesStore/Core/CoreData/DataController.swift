@@ -139,9 +139,10 @@ class DataController {
         }
     }
     
-    static func getAllItems<T : NSManagedObject>() -> [T] {
+    static func getAllItems<T : NSManagedObject>(sortDescriptors: [NSSortDescriptor]) -> [T] {
         do {
             let fetchRequest = NSFetchRequest<NSFetchRequestResult>(entityName: String(describing: T.self))
+            if sortDescriptors.count>0 { fetchRequest.sortDescriptors = sortDescriptors }
             return try DataController.sharedInstance.managedObjectContext.fetch(fetchRequest) as! [T]
         } catch let error {
             print("ERROR: \(error)")
@@ -150,7 +151,7 @@ class DataController {
     }
     
     static func deleteAll<T : NSManagedObject>() -> T? {
-        for dataItem in DataController.getAllItems() as [T] {
+        for dataItem in DataController.getAllItems(sortDescriptors: []) as [T] {
             DataController.sharedInstance.managedObjectContext.delete(dataItem)
         }
         

@@ -23,7 +23,8 @@ extension Catalogue {
     }
     
     static func getAllItems() -> [Catalogue] {
-        return DataController.getAllItems()
+        let sortDescriptors = [NSSortDescriptor(key: "product.id", ascending: true)]
+        return DataController.getAllItems(sortDescriptors: sortDescriptors)
     }
     
     static func deleteAll() {
