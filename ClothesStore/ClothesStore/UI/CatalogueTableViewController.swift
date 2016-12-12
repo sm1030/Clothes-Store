@@ -80,7 +80,7 @@ class CatalogueTableViewController: UITableViewController, StoreControllerDelega
     }
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "catalogue", for: indexPath) as! CatalogueTableViewCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: "catalogueCell", for: indexPath) as! CatalogueTableViewCell
 
         let productCategories = ProductCategory.getAllItems()
         if productCategories.count > indexPath.section {

@@ -37,6 +37,10 @@
 		516A8E981DFE46450089CF78 /* CatalogueTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516A8E971DFE46450089CF78 /* CatalogueTableViewCell.swift */; };
 		516A8E9A1DFE49460089CF78 /* CatalogueTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516A8E991DFE49460089CF78 /* CatalogueTableViewController.swift */; };
 		516A8E9C1DFE698D0089CF78 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516A8E9B1DFE698D0089CF78 /* DetailsViewController.swift */; };
+		516A8EA21DFE7B6E0089CF78 /* BasketTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516A8EA11DFE7B6E0089CF78 /* BasketTableViewCell.swift */; };
+		516A8EA41DFE7B800089CF78 /* WishListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516A8EA31DFE7B800089CF78 /* WishListTableViewCell.swift */; };
+		516A8EA61DFE7C250089CF78 /* BasketTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516A8EA51DFE7C250089CF78 /* BasketTableViewController.swift */; };
+		516A8EA81DFE7C3F0089CF78 /* WishListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516A8EA71DFE7C3F0089CF78 /* WishListTableViewController.swift */; };
 		6F4E3220BE0A415E9480EB2D /* Pods_ClothesStoreTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FFF1F6D9A88D252965BE10C /* Pods_ClothesStoreTests.framework */; };
 		858203C58B2B0E4F9F140E53 /* Pods_ClothesStoreUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B441BA4A91980A7B396C6382 /* Pods_ClothesStoreUITests.framework */; };
 /* End PBXBuildFile section */
@@ -93,6 +97,10 @@
 		516A8E971DFE46450089CF78 /* CatalogueTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CatalogueTableViewCell.swift; sourceTree = "<group>"; };
 		516A8E991DFE49460089CF78 /* CatalogueTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CatalogueTableViewController.swift; sourceTree = "<group>"; };
 		516A8E9B1DFE698D0089CF78 /* DetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		516A8EA11DFE7B6E0089CF78 /* BasketTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasketTableViewCell.swift; sourceTree = "<group>"; };
+		516A8EA31DFE7B800089CF78 /* WishListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WishListTableViewCell.swift; sourceTree = "<group>"; };
+		516A8EA51DFE7C250089CF78 /* BasketTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasketTableViewController.swift; sourceTree = "<group>"; };
+		516A8EA71DFE7C3F0089CF78 /* WishListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WishListTableViewController.swift; sourceTree = "<group>"; };
 		52B13BF6100BB78247D5FEFD /* Pods-ClothesStoreUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClothesStoreUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ClothesStoreUITests/Pods-ClothesStoreUITests.release.xcconfig"; sourceTree = "<group>"; };
 		78EBFD6419F225064CF324C2 /* Pods-ClothesStoreTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClothesStoreTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ClothesStoreTests/Pods-ClothesStoreTests.release.xcconfig"; sourceTree = "<group>"; };
 		9E1FCB0E01A1AA6643AF59DB /* Pods-ClothesStoreTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClothesStoreTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ClothesStoreTests/Pods-ClothesStoreTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -209,6 +217,10 @@
 				516A8E971DFE46450089CF78 /* CatalogueTableViewCell.swift */,
 				516A8E991DFE49460089CF78 /* CatalogueTableViewController.swift */,
 				516A8E9B1DFE698D0089CF78 /* DetailsViewController.swift */,
+				516A8EA11DFE7B6E0089CF78 /* BasketTableViewCell.swift */,
+				516A8EA31DFE7B800089CF78 /* WishListTableViewCell.swift */,
+				516A8EA51DFE7C250089CF78 /* BasketTableViewController.swift */,
+				516A8EA71DFE7C3F0089CF78 /* WishListTableViewController.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -547,18 +559,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				516A8EA81DFE7C3F0089CF78 /* WishListTableViewController.swift in Sources */,
 				5162780A1DFC70AA003BAA51 /* ViewController.swift in Sources */,
+				516A8EA61DFE7C250089CF78 /* BasketTableViewController.swift in Sources */,
 				516278191DFC9C56003BAA51 /* ProductCategory.swift in Sources */,
 				516278171DFC995D003BAA51 /* DataController.swift in Sources */,
 				516A8E881DFD7FF10089CF78 /* Wishist.swift in Sources */,
 				516278051DFC70AA003BAA51 /* AppDelegate.swift in Sources */,
 				5162780E1DFC73B2003BAA51 /* ClothesStore.xcdatamodeld in Sources */,
 				516A8E901DFDBB750089CF78 /* ApiService.swift in Sources */,
+				516A8EA21DFE7B6E0089CF78 /* BasketTableViewCell.swift in Sources */,
 				516A8E8A1DFDAC200089CF78 /* Basket.swift in Sources */,
 				516A8E9A1DFE49460089CF78 /* CatalogueTableViewController.swift in Sources */,
 				516A8E841DFD752E0089CF78 /* Catalogue.swift in Sources */,
 				5162781B1DFCA31B003BAA51 /* Product.swift in Sources */,
 				516A8E9C1DFE698D0089CF78 /* DetailsViewController.swift in Sources */,
+				516A8EA41DFE7B800089CF78 /* WishListTableViewCell.swift in Sources */,
 				516A8E941DFDFA270089CF78 /* StoreController.swift in Sources */,
 				516A8E981DFE46450089CF78 /* CatalogueTableViewCell.swift in Sources */,
 			);

@@ -104,6 +104,18 @@ class StoreController {
         }
     }
     
+    func getTotalAmount() -> Int {
+        var total = 0
+        
+        for basket in Basket.getAllItems() {
+            if let basketProduct = basket.product {
+                total += Int(basket.count) * Int(basketProduct.price)
+            }
+        }
+        
+        return total
+    }
+    
     func commitPurchase() {
         Basket.deleteAll()
         
